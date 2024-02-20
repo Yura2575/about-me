@@ -1,0 +1,102 @@
+header, footer{
+    background-color: #ffc500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.nav{
+    display: flex;
+gap: 50px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fa005a;
+    font-size: 30px;
+    transition: 2s;
+}
+body{
+    margin: 0;
+}
+a:hover{
+    color: #ff8f8f;
+}
+.index-title, .index-text, ol, .index-img{
+    margin-left:  550px;
+}
+
+   div{
+    background-color: #141313;
+}  
+h1, p, h2, ol, h3{
+    color: #e2e3e0; 
+}
+*{
+    margin: 0;
+}
+ .images{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #141313;
+    gap: 30px;
+    justify-content: center;
+  
+ }
+ .images li{
+    width: 400px;
+ }
+ .about-title{
+    text-align: center;
+ }
+ .rewards-list{
+display: flex;
+gap: 80px;
+justify-content: center;
+
+ }
+ .a-contact{
+    display: block;
+
+
+ }
+ .contacts{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+ }
+
+
+ 
+ .rewards-title{
+    text-align: center;
+ }
+ .rewards-img{
+    display: flex;
+    margin: 0 auto;
+ }
+ .box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ }
+ .buy{
+    color: #e2e3e0;
+ }
+ .buy:hover{
+    color: #e2e3e0;
+ }
+ button{
+    background: #141313;
+    border-color: #e2e3e0;
+ }
+ .game{
+   display: flex;
+   justify-content: center;
+ }
+ .game-title{
+   text-align: center;
+ }
